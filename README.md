@@ -3,7 +3,7 @@
 This repository contains steps on how i set up a basic home lab running Active Directory
 
 ## Diagram
-![Diagram](https://imgur.com/DuZohlX)
+![Diagram](https://i.imgur.com/DuZohlX.png)
 
 ## Download and install Oracle VirtualBox from the official website.
 [Oracle Virtual Box](https://www.virtualbox.org/)
@@ -14,40 +14,40 @@ This repository contains steps on how i set up a basic home lab running Active D
 
 ## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media.
 
-![](attachments/Pasted%20image%2020230402145533.png)
+![](https://i.imgur.com/pBfdTVs.png)
 
-![](attachments/Pasted%20image%2020230402145610.png)
+![](https://i.imgur.com/Gnw6NCM.png)
 
 ##  Configure the virtual machine by giving it two network adapters: one for connecting to the internet and the other for the private network.
 
-![](attachments/Pasted%20image%2020230402145806.png)
+![](https://i.imgur.com/9YkM5O3.png)
 
-![](attachments/Pasted%20image%2020230402145820.png)
+![](https://i.imgur.com/UJXFUmo.png)
 
 ##  Install Server 2019 on the virtual machine and assign IP addressing for the internal network.
 
-![](attachments/Pasted%20image%2020230402150458.png)
+![](https://i.imgur.com/yyG9DZv.png)
 
-![](attachments/Pasted%20image%2020230402150538.png)
+![](https://i.imgur.com/TvpEAer.png)
 ##  Name the server and install Active Directory to create the domain.
-![](attachments/Pasted%20image%2020230402150727.png)
+![](https://i.imgur.com/eduYSoW.png)
 
-![](attachments/Pasted%20image%2020230402153253.png)
+![](https://i.imgur.com/kj3qur5.png)
 
 ##  Configure routing so that clients on the private network can access the internet through the domain controller.
 
-![](attachments/Pasted%20image%2020230402153829.png)
+![](https://i.imgur.com/5SzRiHd.png)
 
-![](attachments/Pasted%20image%2020230402153904.png)
+![](https://i.imgur.com/5bIfLgn.png)
 
-![](attachments/Pasted%20image%2020230402154123.png)
+![](https://i.imgur.com/WeLJqg5.png)
 
 ##  Set up DHCP on the domain controller.
-![](attachments/Pasted%20image%2020230402154312.png)
+![](https://i.imgur.com/m4xFQKl.png)
 
-![](attachments/Pasted%20image%2020230402154041.png)
+![](https://i.imgur.com/WpjjWBU.png)
 
-![](attachments/Pasted%20image%2020230402154439.png)
+![](https://i.imgur.com/Tz93rfA.png)
 
 
 ##  Run the PowerShell script to create 1000 users in Active Directory.
@@ -56,17 +56,17 @@ This repository contains steps on how i set up a basic home lab running Active D
 
 ##  Create a new virtual machine named "Client1" and install Windows 10 on it.
 
-![](attachments/Pasted%20image%2020230402155056.png)
+![](https://i.imgur.com/LFazRDt.png)
 
 
 ##  Connect the client machine to the private network and join it to the domain.
 
-![](attachments/Pasted%20image%2020230402155713.png)
+![](https://i.imgur.com/W6ig3tj.png)
 
-![](attachments/Pasted%20image%2020230402155807.png)
+![](https://i.imgur.com/f7C5crq.png)
 
 ##  Log into the client machine with a domain account.
 
-![](attachments/Pasted%20image%2020230402160005.png)
+![](https://i.imgur.com/zIL4wuF.png)
 
-![](attachments/Pasted%20image%2020230402160120.png)
+![](https://i.imgur.com/7N0cAhi.png)
